@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mood Emotion</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+
+
+<div class="overlay">
+	<div class="box">
+		<div class="leftSide">
+			<h2>Today is my Mood</h2>
+			<select class="mySelect" id="myMood">
+				<option>😀</option>
+				<option>😃</option>
+				<option>😄</option>
+				<option>😁</option>
+				<option>😆</option>
+				<option>😅</option>
+				<option>🤣</option>
+				<option>😂</option>
+				<option>🙂</option>
+				<option>😉</option>
+				<option>😊</option>
+				<option>😇</option>
+				<option>🥰</option>
+				<option>😍</option>
+				<option>🤩</option>
+				<option>😘</option>
+				<option>😗</option>
+				<option>☺️</option>
+				<option>😚</option>
+				<option>😙</option>
+				<option>🥲</option>
+				<option>😋</option>
+				<option>😛</option>
+				<option>😜</option>
+				<option>🤪</option>
+				<option>😝</option>
+				<option>🤑</option>
+				<option>🤗</option>
+				<option>🤭</option>
+				<option>🫢</option>
+				<option>🫣</option>
+				<option>🤫</option>
+				<option>🤔</option>
+				<option>🫡</option>
+				<option>🤤</option>
+				<option>🤠</option>
+				<option>🥳</option>
+				<option>🥸</option>
+				<option>😎</option>
+				<option>🤓</option>
+				<option>🧐</option>
+				<option>🙃</option>
+				<option>🫠</option>
+				<option>🤐</option>
+				<option>🤨</option>
+				<option>😐</option>
+				<option>😑</option>
+				<option>😶</option>
+				<option>🫥</option>
+				<option>😶‍🌫️</option>
+				<option>😒</option>
+				<option>🙄</option>
+				<option>😬</option>
+				<option>😮‍💨</option>
+				<option>🤥</option>
+				<option>🫨</option>
+				<option>🙂‍↔️</option>
+				<option>🙂‍↕️</option>
+				<option>😌</option>
+
+
+				<option>😔</option>
+				<option>😪</option>
+				<option>😴</option>
+				<option>😷</option>
+				<option>🤒</option>
+				<option>🤕</option>
+				<option>🤢</option>
+				<option>🤮</option>
+				<option>🤧</option>
+				<option>🥵</option>
+				<option>🥶</option>
+				<option>🥴</option>
+				<option>😵</option>
+				<option>😵‍💫</option>
+				<option>🤯</option>
+				<option>🥱</option>
+				<option>😕</option>
+				<option>🫤</option>
+				<option>😟</option>
+				<option>🙁</option>
+				<option>☹️</option>
+				<option>😮</option>
+				<option>😯</option>
+				<option>😲</option>
+				<option>😳</option>
+				<option>🥺</option>
+				<option>🥹</option>
+				<option>😦</option>
+				<option>😧</option>
+				<option>😨</option>
+				<option>😰</option>
+				<option>😥</option>
+				<option>😢</option>
+				<!-- <option>😀 (Grinning Face)</option>
+				<option>😃 (Grinning Face with Smiling Eyes)</option>
+				<option>😄 (Grinning Face with Smiling Eyes)</option>
+				<option>😁 (Beaming Face with Smiling Eyes)</option>
+				<option>😆 (Grinning Squinting Face)</option>
+				<option>😅 (Grinning Face with Sweat)</option>
+				<option>🤣 (Laughter)</option>
+				<option>😂 (Tears of Joy)</option>
+				<option>🙂 (Slightly Smiling Face)</option>
+				<option>😉 (Winking Face)</option>
+				<option>😊 (Smiling Face with Smiling Eyes)</option>
+				<option>😇 (Smiling Face with Halo)</option>
+				<option>🥰 (Smiling Face with Hearts)</option>
+				<option>😍 (Smiling Face with Heart Eyes)</option>
+				<option>🤩 (Star-Struck)</option>
+				<option>😘 (Face Blowing Kiss)</option>
+				<option>😗 (Kissing Face)</option>
+				<option>☺️ (Smiling Face with Smiling Eyes)</option>
+				<option>😚 (Kissing Face with Smiling Eyes)</option>
+				<option>😙 (Kissing Face)</option>
+				<option>🥲 (Smiling Face with Tear)</option>
+				<option>😋 (Face with Tongue)</option>
+				<option>😛 (Face with Tongue)</option>
+				<option>😜 (Winking Face with Tongue)</option>
+				<option>🤪 (Dizzy Face)</option>
+				<option>😝 (Face with Tongue and Winking Eye)</option>
+				<option>🤑 (Face with Money-Mouth)</option>
+				<option>🤗 (Smiling Face with Huddled Hands)</option>
+				<option>🤭 (Face with Hand Over Mouth)</option>
+				<option>🫢 (Face with Hand Over Mouth)</option>
+				<option>🫣 (Face with Peeking Eye)</option>
+				<option>🤫 (Face with Hand Over Mouth)</option>
+				<option>🤔 (Thinking Face)</option>
+				<option>🫡 (Soldier Saluting)</option>
+				<option>🤤 (Face with Tongue)</option>
+				<option>🤠 (Cowboy)</option>
+				<option>🥳 (Party Face)</option>
+				<option>🥸 (Face with Disguise)</option>
+				<option>😎 (Smiling Face with Sunglasses)</option>
+				<option>🤓 (Nerd Face)</option>
+				<option>🧐 (Face with Monacles)</option>
+				<option><h6>Neutral & Skeptical:</h6> </option>
+				<option>🙃 (Upside-Down Face)</option>
+				<option>🫠 (Melting Face)</option>
+				<option>🤐 (Face with Mouth Sealed)</option>
+				<option>🤨 (Face with Raised Eyebrow)</option>
+				<option>😐 (Neutral Face)</option>
+				<option>😑 (Face with No Mouth)</option>
+				<option>😶 (Face Without Mouth)</option>
+				<option>🫥 (Face with No Mouth)</option>
+				<option>😶‍🌫️ (Face with No Mouth and Cold Sweat)</option>
+				<option>😒 (Face with Unamused)</option>
+				<option>🙄 (Face with Rolling Eyes)</option>
+				<option>😬 (Grimacing Face)</option>
+				<option>😮‍💨 (Face with Cold Sweat)</option>
+				<option>🤥 (Face with No Mouth)</option>
+				<option>🫨 (Face with Cold Sweat)</option>
+				<option>🙂‍↔️ (Head Shaking Vertically)</option>
+				<option>🙂‍↕️ (Head Shaking Vertically)</option>
+				<option><h6>Sleepy & Unwell:</h6></option>
+				<option>😌 (Relieved Face)</option>
+				<option>😔 (Pensive Face)</option>
+				<option>😪 (Sleepy Face)</option>
+				<option>😴 (Sleeping Face)</option>
+				<option><h6>(Person with Black Hair)</h6></option>
+				<option>😷 (Face with Medical Mask)</option>
+				<option>🤒 (Face with Thermometer)</option>
+				<option>🤕 (Face with Bandage)</option>
+				<option>🤢 (Nauseous Face)</option>
+				<option>🤮 (Vomiting Face)</option>
+				<option>🤧 (Nauseous Face)</option>
+				<option>🥵 (Face with Sweat)</option>
+				<option>🥶 (Cold Face)</option>
+				<option>🥴 (Winking Face with Tongue)</option>
+				<option>😵 (Dizzy Face)</option>
+				<option>😵‍💫 (Dizzy Face with Stars)</option>
+				<option>🤯 (Exploding Head)</option>
+				<option>🥱 (Yawning Face)</option>
+				<option><h6>Concerned & Negative:</h6></option>
+				<option>😕 (Confused Face)</option>
+				<option>🫤 (Face with Raised Eyebrow)</option>
+				<option>😟 (Worried Face)</option>
+				<option>🙁 (Slightly Frowning Face)</option>
+				<option>☹️ (Frowning Face)</option>
+				<option>😮 (Face with Open Mouth)</option>
+				<option>😯 (Face with Open Mouth)</option>
+				<option>😲 (Face with Open Mouth and Star)</option>
+				<option>😳 (Face with Open Mouth and Star)</option>
+				<option>🥺 (Pleading Face)</option>
+				<option>🥹 (Face with Tears of Joy)</option>
+				<option>😦 (Face with Open Mouth)</option>
+				<option>😧 (Face with Open Mouth)</option>
+				<option>😨 (Fearful Face)</option>
+				<option>😰 (Face with Cold Sweat)</option>
+				<option>😥 (Sad but Relieved Face)</option>
+				<option>😢 (Tear)</option> -->
+			</select>
+			<button id="mySubmitBtn">
+				save
+			</button>
+
+			<div class="paraWrap">
+				<p class="">Track your emotions effortlessly with Mood Logger. Analyze patterns, improve well-being, and gain insights into your daily mood changes.</p>
+			</div>
+		
+		
+			<!-- <br>
+			<br>
+			<br>
+			<div>
+		
+				<button id="showData" class="btn">Show Data</button>
+				<ul id="myList">
+				</ul>
+		
+			</div> -->
+		</div>
+		<div class="rightSide">
+			<div>
+				<div id='calendar'></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
