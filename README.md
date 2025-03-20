@@ -17,3 +17,7 @@ A simple web app to log daily moods using emojis and visualize emotional trends 
 1. Open the web app.
 2. Select an emoji for your mood.
 3. View past moods in the timeline or calendar.
+
+
+Deployement Link
+https://chai-code-mood-tracker.vercel.app/
