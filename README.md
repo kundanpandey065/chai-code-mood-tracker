@@ -1,5 +1,8 @@
 # Daily Mood Tracker
 
+
+![Daily Mood Tracker Logo](Screenshot.png)
+
 ## Overview
 A simple web app to log daily moods using emojis and visualize emotional trends over time.
 
@@ -17,6 +20,9 @@ A simple web app to log daily moods using emojis and visualize emotional trends 
 1. Open the web app.
 2. Select an emoji for your mood.
 3. View past moods in the timeline or calendar.
+
+
+
 
 
 Deployement Link
